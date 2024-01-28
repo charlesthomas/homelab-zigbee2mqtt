@@ -8,6 +8,15 @@ metadata:
     external-dns.alpha.kubernetes.io/target: crt.house
     nginx.org/websocket-services: zigbee2mqtt
     
+    gethomepage.dev/href: zigbee2mqtt.crt.house
+    gethomepage.dev/enabled: "true"
+    gethomepage.dev/description: "Home Automation Device Adder"
+    gethomepage.dev/group: "Home Automation"
+    gethomepage.dev/icon: zigbee2mqtt
+    gethomepage.dev/name: zigbee2mqtt
+    gethomepage.dev/widget.type: ""
+    gethomepage.dev/widget.url: ""
+    gethomepage.dev/pod-selector: ""
     
 spec:
   ingressClassName: nginx-crt-house
