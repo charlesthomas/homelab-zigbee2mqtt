@@ -1,0 +1,29 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: zigbee2mqtt
+
+commonAnnotations:
+  repo: https://github.com/charlesthomas/homelab-zigbee2mqtt
+commonLabels:
+  app: zigbee2mqtt
+
+resources:
+- resources/configmaps.yaml
+- resources/deployments.yaml
+- resources/external-secrets.yaml
+- resources/ingresses.yaml
+- resources/namespaces.yaml
+- resources/pvcs.yaml
+- resources/services.yaml
+patches:
+- patch: |-
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: all
+      namespace: zigbee2mqtt
+      annotations:
+        reloader.stakater.com/auto: "true"
+  target:
+    kind: Deployment

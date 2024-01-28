@@ -1,0 +1,39 @@
+_commit: v1.1.2-11-g21c7f37
+_src_path: /Users/crthomas/code/charlesthomas/homelab-template
+additionalResources: ''
+backups: false
+helm: false
+ingClass: nginx-crt-house
+ingExtraAnnotations: ''
+ingHost: zigbee2mqtt.crt.house
+ingName: zigbee2mqtt
+ingPathType: Prefix
+ingWebSockets: true
+ingress: true
+labels: 'app: zigbee2mqtt'
+name: zigbee2mqtt
+namespace: zigbee2mqtt
+pvc: true
+pvcAccessMode: ReadWriteOnce
+pvcName: zigbee2mqtt-data
+pvcSize: 500Mi
+pvcStorageClass: longhorn
+reloader: true
+resources:
+- configmaps.yaml
+- deployments.yaml
+- external-secrets.yaml
+- ingresses.yaml
+- pvcs.yaml
+- services.yaml
+service: true
+serviceAccount: false
+svcName: zigbee2mqtt
+svcPortName: http
+svcPortNum: 8080
+svcProtocol: TCP
+svcSelector: 'app: zigbee2mqtt'
+svcTargetPort: http
+svcType: ClusterIP
+upstreamURL: https://www.zigbee2mqtt.io/
+url: https://github.com/charlesthomas/homelab-zigbee2mqtt
