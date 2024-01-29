@@ -5,8 +5,6 @@ namespace: zigbee2mqtt
 
 commonAnnotations:
   repo: https://github.com/charlesthomas/homelab-zigbee2mqtt
-commonLabels:
-  app: zigbee2mqtt
 
 resources:
 - resources/configmaps.yaml
