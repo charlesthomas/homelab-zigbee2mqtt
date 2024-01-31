@@ -13,8 +13,6 @@ metadata:
     gethomepage.dev/group: "Home Automation"
     gethomepage.dev/icon: zigbee2mqtt
     gethomepage.dev/name: zigbee2mqtt
-    gethomepage.dev/widget.type: ""
-    gethomepage.dev/widget.url: ""
     gethomepage.dev/pod-selector: ""
     
 spec:
