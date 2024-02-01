@@ -1,18 +1,20 @@
-_commit: v1.1.2-13-g41877d9
-_src_path: /Users/crthomas/code/charlesthomas/homelab-template
+_commit: v1.3.6
+_src_path: ./homelab-template
 additionalResources: ''
 backups: false
 helm: false
-homepageDescription: '"Home Automation Device Adder"'
+homepageDescription: Home Automation Device Adder
 homepageEnabled: true
-homepageGroup: '"Home Automation"'
+homepageGroup: Home Automation
 homepageIcon: zigbee2mqtt
-homepageName: zigbee2mqtt
+homepageName: Zigbee2MQTT
 ingClass: nginx-crt-house
+ingCname: ''
 ingExtraAnnotations: ''
 ingHost: zigbee2mqtt.crt.house
 ingName: zigbee2mqtt
 ingPathType: Prefix
+ingSecret: ''
 ingWebSockets: true
 ingress: true
 labels: 'app: zigbee2mqtt'
