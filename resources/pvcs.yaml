@@ -5,10 +5,10 @@ metadata:
   name: zigbee2mqtt-data
   namespace: zigbee2mqtt
 spec:
-    accessModes:
-    - ReadWriteOnce
-    resources:
-      requests:
-        storage: 500Mi
-    storageClassName: longhorn
-    volumeMode: Filesystem
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 500Mi
+  storageClassName: longhorn
+  volumeMode: Filesystem
