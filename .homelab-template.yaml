@@ -1,13 +1,9 @@
-_commit: v1.6.8
+_commit: v1.8.1
 _src_path: /home/crthomas/code/charlesthomas/homelab-template
 additionalResources: ''
 backups: false
 helm: false
-homepageDescription: Home Automation Device Adder
 homepageEnabled: true
-homepageGroup: Home Automation
-homepageIcon: zigbee2mqtt
-homepageName: Zigbee2MQTT
 ingClass: nginx-internal
 ingCname: ''
 ingExtraAnnotations: ''
