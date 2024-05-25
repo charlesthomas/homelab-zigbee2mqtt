@@ -60,8 +60,6 @@ spec:
           volumeMounts:
             - name: data
               mountPath: /data
-            - name: usb
-              mountPath: /dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE3019008-if00
             - name: zigbee2mqtt-settings
               mountPath: /app/configuration.yaml
               subPath: configuration.yaml
@@ -90,16 +88,6 @@ spec:
         - name: data
           persistentVolumeClaim:
             claimName: zigbee2mqtt-data
-        - name: usb
-          hostPath:
-            path: /dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE3019008-if00
         - name: zigbee2mqtt-settings
           configMap:
             name: zigbee2mqtt-settings
-      affinity:
-        nodeAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-            nodeSelectorTerms:
-            - matchExpressions:
-              - key: feature.node.kubernetes.io/usb-02_1cf1_0030.present
-                operator: Exists
