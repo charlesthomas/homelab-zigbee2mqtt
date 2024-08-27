@@ -1,0 +1,71 @@
+"1":
+  friendly_name: "CT Bath"
+  devices:
+    - "CT Bath Center"
+    - "CT Bath Fan"
+    - "CT Bath Inside Sensor"
+    - "CT Bath Left"
+    - "CT Bath Light Switch"
+    - "CT Bath Outside Sensor"
+    - "CT Bath Presence Sensor"
+    - "CT Bath Right"
+"2":
+  friendly_name: "CT Bedroom"
+  devices:
+    - "CT Bedroom Lamp"
+    - "CT Bedroom Motion Sensor"
+"3":
+  friendly_name: "CT Office"
+  devices:
+    - "CT Office Fan"
+    - "CT Office Lamp Left"
+    - "CT Office Lamp Right"
+    - "CT Office Space Heater"
+"4":
+  friendly_name: "Dining Room"
+  devices:
+    - "Chandelier"
+    - "Dice Left"
+    - "Dice Right"
+"5":
+  friendly_name: "Guest Bath"
+  devices:
+    - "Guest Bath Center"
+    - "Guest Bath Fan"
+    - "Guest Bath Inside Sensor"
+    - "Guest Bath Left"
+    - "Guest Bath Light Switch"
+    - "Guest Bath Outside Sensor"
+    - "Guest Bath Presence Sensor"
+    - "Guest Bath Right"
+"6":
+  friendly_name: "Kitchen"
+  devices:
+    - "Coffee Pot"
+    - "Kitchen Lights"
+    - "Kitchen Motion Sensor"
+    - "Kettle"
+"7":
+  friendly_name: "Living Room"
+  devices:
+    - "Art Lamps"
+    - "Avengers"
+    - "Living Room Left Front"
+    - "Living Room Left Rear"
+    - "Living Room Right Front"
+    - "Living Room Right Rear"
+    - "Rear Speakers"
+"8":
+  friendly_name: "RT Bedroom"
+  devices:
+    - "RT Bedroom Bottom"
+    - "RT Bedroom Button"
+    - "RT Bedroom Top"
+"9":
+  friendly_name: "RT Office"
+  devices:
+    - "RT Desk Lamp Left"
+    - "RT Desk Lamp Right"
+    - "RT Office Button"
+    - "RT Office Fan"
+    - "RT Office Wall Top"

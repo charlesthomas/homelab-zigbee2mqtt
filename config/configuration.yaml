@@ -1,0 +1,26 @@
+advanced:
+  homeassistant_discovery_topic: homeassistant
+  homeassistant_status_topic: homeassistant/status
+  last_seen: ISO_8601
+  log_level: debug
+  log_output:
+  - console
+  network_key: '!secrets network_key'
+  pan_id: 0x1a63
+  transmit_power: 20
+devices: "!include devices.yaml"
+experimental:
+  new_api: true
+frontend:
+  port: 8080
+groups: "!include groups.yaml"
+homeassistant: true
+mqtt:
+  base_topic: zigbee2mqtt
+  include_device_information: true
+  server: mqtt://mosquitto.mosquitto.svc
+permit_join: false
+serial:
+  port: tcp://192.168.1.250:6638
+  baudrate: 115200
+  disable_led: false
