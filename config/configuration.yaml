@@ -8,12 +8,12 @@ advanced:
   network_key: '!secrets network_key'
   pan_id: 0x1a63
   transmit_power: 20
-devices: "!include devices.yaml"
+devices: 
 experimental:
   new_api: true
 frontend:
   port: 8080
-groups: "!include groups.yaml"
+groups: 
 homeassistant: true
 mqtt:
   base_topic: zigbee2mqtt
