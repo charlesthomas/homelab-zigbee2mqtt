@@ -63,6 +63,8 @@ data:
         friendly_name: "Dice Left"
       "0x0017880109023401":
         friendly_name: "Dice Right"
+      "0xa4c138b5a6a4eaeb":
+        friendly_name: "Guest Bath Button"
       "0x00178801039e0a09":
         friendly_name: "Guest Bath Center"
       "0x0ceff6fffe680989":
