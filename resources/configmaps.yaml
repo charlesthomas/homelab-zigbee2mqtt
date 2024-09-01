@@ -25,6 +25,8 @@ data:
         friendly_name: "Chandelier"
       "0xa81710b775fd0000":
         friendly_name: "Coffee Pot"
+      "0xa4c138a5359f14ac":
+        friendly_name: "CT Bath Button"
       "0x001788010b5dd5af":
         friendly_name: "CT Bath Center"
       "0x3410f4fffee1e0be":
@@ -41,6 +43,8 @@ data:
         friendly_name: "CT Bath Right"
       "0x3410f4fffee14313":
         friendly_name: "CT Bath Light Switch"
+      "0xa4c138656370a23c":
+        friendly_name: "CT Bedroom Button"
       "0xa81710b7823a0000":
         friendly_name: "CT Bedroom Fan"
       "0x001788010b6c297a":
@@ -81,6 +85,8 @@ data:
         friendly_name: "Kitchen Motion Sensor"
       "0xa81710b770520000":
         friendly_name: "Kettle"
+      "0xa4c1382388000e8d":
+        friendly_name: "Living Room Button"
       "0x001788010b61bbc2":
         friendly_name: "Living Room Left Front"
       "0x001788010bb1767d":
