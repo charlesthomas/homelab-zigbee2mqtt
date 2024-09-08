@@ -4,6 +4,9 @@ kind: PersistentVolumeClaim
 metadata:
   name: zigbee2mqtt-data
   namespace: zigbee2mqtt
+  labels:
+    
+    
 spec:
   accessModes:
   - ReadWriteOnce
