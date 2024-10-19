@@ -77,8 +77,6 @@ data:
         friendly_name: "Guest Bath Fan"
       "0x00178801046a3916":
         friendly_name: "Guest Bath Left"
-      "0xa4c13823843ec8c8":
-        friendly_name: "Guest Bath Outside Sensor"
       "0x28dba7fffe1b3ba8":
         friendly_name: "Guest Bath Presence Sensor"
       "0x00178801042a62cc":
@@ -89,6 +87,8 @@ data:
         friendly_name: "Kitchen Lights"
       "0x001788010919610e":
         friendly_name: "Kitchen Motion Sensor"
+      "0xa4c13823843ec8c8":
+        friendly_name: "Kitchen Humidity Sensor"
       "0xa81710b770520000":
         friendly_name: "Kettle"
       "0xa4c1382388000e8d":
@@ -130,8 +130,8 @@ data:
         friendly_name: "CT Bath"
         devices:
           - "CT Bath Center"
+          - "CT Bath Dehumidifier"
           - "CT Bath Fan"
-          - "CT Bath Inside Sensor"
           - "CT Bath Left"
           - "CT Bath Light Switch"
           - "CT Bath Outside Sensor"
@@ -148,6 +148,7 @@ data:
           - "CT Office Fan"
           - "CT Office Lamp Left"
           - "CT Office Lamp Right"
+          - "CT Office Sensor"
           - "CT Office Space Heater"
       "4":
         friendly_name: "Dining Room"
@@ -155,15 +156,15 @@ data:
           - "Chandelier"
           - "Dice Left"
           - "Dice Right"
+          - "Dining Room Sensor"
       "5":
         friendly_name: "Guest Bath"
         devices:
           - "Guest Bath Center"
+          - "Guest Bath Dehumidifier"
           - "Guest Bath Fan"
-          - "Guest Bath Inside Sensor"
           - "Guest Bath Left"
           - "Guest Bath Light Switch"
-          - "Guest Bath Outside Sensor"
           - "Guest Bath Presence Sensor"
           - "Guest Bath Right"
       "6":
@@ -172,6 +173,7 @@ data:
           - "Coffee Pot"
           - "Kitchen Lights"
           - "Kitchen Motion Sensor"
+          - "Kitchen Humidity Sensor"
           - "Kettle"
       "7":
         friendly_name: "Living Room"

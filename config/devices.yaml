@@ -58,8 +58,6 @@
   friendly_name: "Guest Bath Fan"
 "0x00178801046a3916":
   friendly_name: "Guest Bath Left"
-"0xa4c13823843ec8c8":
-  friendly_name: "Guest Bath Outside Sensor"
 "0x28dba7fffe1b3ba8":
   friendly_name: "Guest Bath Presence Sensor"
 "0x00178801042a62cc":
@@ -70,6 +68,8 @@
   friendly_name: "Kitchen Lights"
 "0x001788010919610e":
   friendly_name: "Kitchen Motion Sensor"
+"0xa4c13823843ec8c8":
+  friendly_name: "Kitchen Humidity Sensor"
 "0xa81710b770520000":
   friendly_name: "Kettle"
 "0xa4c1382388000e8d":

@@ -2,8 +2,8 @@
   friendly_name: "CT Bath"
   devices:
     - "CT Bath Center"
+    - "CT Bath Dehumidifier"
     - "CT Bath Fan"
-    - "CT Bath Inside Sensor"
     - "CT Bath Left"
     - "CT Bath Light Switch"
     - "CT Bath Outside Sensor"
@@ -20,6 +20,7 @@
     - "CT Office Fan"
     - "CT Office Lamp Left"
     - "CT Office Lamp Right"
+    - "CT Office Sensor"
     - "CT Office Space Heater"
 "4":
   friendly_name: "Dining Room"
@@ -27,15 +28,15 @@
     - "Chandelier"
     - "Dice Left"
     - "Dice Right"
+    - "Dining Room Sensor"
 "5":
   friendly_name: "Guest Bath"
   devices:
     - "Guest Bath Center"
+    - "Guest Bath Dehumidifier"
     - "Guest Bath Fan"
-    - "Guest Bath Inside Sensor"
     - "Guest Bath Left"
     - "Guest Bath Light Switch"
-    - "Guest Bath Outside Sensor"
     - "Guest Bath Presence Sensor"
     - "Guest Bath Right"
 "6":
@@ -44,6 +45,7 @@
     - "Coffee Pot"
     - "Kitchen Lights"
     - "Kitchen Motion Sensor"
+    - "Kitchen Humidity Sensor"
     - "Kettle"
 "7":
   friendly_name: "Living Room"
