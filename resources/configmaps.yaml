@@ -29,10 +29,10 @@ data:
         friendly_name: "CT Bath Button"
       "0x001788010b5dd5af":
         friendly_name: "CT Bath Center"
+      "0xb40ecfd16a700000":
+        friendly_name: "CT Bath Dehumidifier"
       "0x3410f4fffee1e0be":
         friendly_name: "CT Bath Fan"
-      "0xa4c13828a4d37236":
-        friendly_name: "CT Bath Inside Sensor"
       "0x001788010b5cf266":
         friendly_name: "CT Bath Left"
       "0xa4c138c6791ecc0c":
@@ -57,20 +57,24 @@ data:
         friendly_name: "CT Office Lamp Left"
       "0x001788010bb10027":
         friendly_name: "CT Office Lamp Right"
+      "0xa4c13828a4d37236":
+        friendly_name: "CT Office Sensor"
       "0xa81710b782790000":
         friendly_name: "CT Office Space Heater"
       "0x0017880109042337":
         friendly_name: "Dice Left"
       "0x0017880109023401":
         friendly_name: "Dice Right"
+      "0xa4c13827c6490448":
+        friendly_name: "Dining Room Sensor"
       "0xa4c138b5a6a4eaeb":
         friendly_name: "Guest Bath Button"
       "0x00178801039e0a09":
         friendly_name: "Guest Bath Center"
+      "0xb40ecfd12d530000":
+        friendly_name: "Guest Bath Dehumidifier"
       "0x0ceff6fffe680989":
         friendly_name: "Guest Bath Fan"
-      "0xa4c13827c6490448":
-        friendly_name: "Guest Bath Inside Sensor"
       "0x00178801046a3916":
         friendly_name: "Guest Bath Left"
       "0xa4c13823843ec8c8":
