@@ -17,6 +17,7 @@
 "3":
   friendly_name: "CT Office"
   devices:
+    - "CT Office Button"
     - "CT Office Fan"
     - "CT Office Lamp Left"
     - "CT Office Lamp Right"

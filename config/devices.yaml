@@ -32,6 +32,8 @@
   friendly_name: "CT Bedroom Lamp"
 "0x001788010bccbc94":
   friendly_name: "CT Bedroom Motion Sensor"
+"0x28dba7fffe002085":
+  friendly_name: "CT Office Button"
 "0xa81710b782090000":
   friendly_name: "CT Office Fan"
 "0x001788010bb10d20":
