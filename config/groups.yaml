@@ -45,6 +45,7 @@
   friendly_name: "Kitchen"
   devices:
     - "Coffee Pot"
+    - "Kitchen Dishwasher"
     - "Kitchen Humidity Sensor"
     - "Kitchen Lights"
     - "Kitchen Motion Sensor Night Light"

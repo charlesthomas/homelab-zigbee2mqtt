@@ -87,6 +87,8 @@ data:
         friendly_name: "Guest Bath Right"
       "0x842712fffe3fcc6a":
         friendly_name: "Guest Bath Light Switch"
+      "0xffffb40e0603b550":
+        friendly_name: "Kitchen Dishwasher"
       "0xa4c13823843ec8c8":
         friendly_name: "Kitchen Humidity Sensor"
       "0x0ceff6fffee17247":
@@ -179,6 +181,7 @@ data:
         friendly_name: "Kitchen"
         devices:
           - "Coffee Pot"
+          - "Kitchen Dishwasher"
           - "Kitchen Humidity Sensor"
           - "Kitchen Lights"
           - "Kitchen Motion Sensor Night Light"
