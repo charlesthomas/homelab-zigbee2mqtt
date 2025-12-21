@@ -36,7 +36,6 @@
     - "Guest Bath Center"
     - "Guest Bath Dehumidifier"
     - "Guest Bath Fan"
-    - "Guest Bath Humidity Sensor"
     - "Guest Bath Left"
     - "Guest Bath Light Switch"
     - "Guest Bath Motion Sensor"
@@ -46,7 +45,9 @@
   friendly_name: "Kitchen"
   devices:
     - "Coffee Pot"
+    - "Kitchen Humidity Sensor"
     - "Kitchen Lights"
+    - "Kitchen Motion Sensor Night Light"
     - "Kettle"
 "7":
   friendly_name: "Living Room"
