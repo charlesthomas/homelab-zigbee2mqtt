@@ -69,9 +69,9 @@
 "0x0ceff6fffee17247":
   friendly_name: "Kitchen Lights"
 "0x001788010919610e":
-  friendly_name: "Kitchen Motion Sensor"
+  friendly_name: "Guest Bath Motion Sensor"
 "0xa4c13823843ec8c8":
-  friendly_name: "Kitchen Humidity Sensor"
+  friendly_name: "Guest Bath Humidity Sensor"
 "0xa81710b770520000":
   friendly_name: "Kettle"
 "0xa4c1382388000e8d":

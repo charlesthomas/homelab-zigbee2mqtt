@@ -88,9 +88,9 @@ data:
       "0x0ceff6fffee17247":
         friendly_name: "Kitchen Lights"
       "0x001788010919610e":
-        friendly_name: "Kitchen Motion Sensor"
+        friendly_name: "Guest Bath Motion Sensor"
       "0xa4c13823843ec8c8":
-        friendly_name: "Kitchen Humidity Sensor"
+        friendly_name: "Guest Bath Humidity Sensor"
       "0xa81710b770520000":
         friendly_name: "Kettle"
       "0xa4c1382388000e8d":
@@ -168,8 +168,10 @@ data:
           - "Guest Bath Center"
           - "Guest Bath Dehumidifier"
           - "Guest Bath Fan"
+          - "Guest Bath Humidity Sensor"
           - "Guest Bath Left"
           - "Guest Bath Light Switch"
+          - "Guest Bath Motion Sensor"
           - "Guest Bath Presence Sensor"
           - "Guest Bath Right"
       "6":
@@ -177,8 +179,6 @@ data:
         devices:
           - "Coffee Pot"
           - "Kitchen Lights"
-          - "Kitchen Motion Sensor"
-          - "Kitchen Humidity Sensor"
           - "Kettle"
       "7":
         friendly_name: "Living Room"
