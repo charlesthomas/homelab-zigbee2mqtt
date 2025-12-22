@@ -13,7 +13,8 @@
 "2":
   friendly_name: "CT Bedroom"
   devices:
-    - "CT Bedroom Button"
+    - "CT Bedroom Nightstand Button"
+    - "CT Bedroom Wall Button"
     - "CT Bedroom Fan"
     - "CT Bedroom Lamp"
     - "CT Bedroom Motion Sensor"
