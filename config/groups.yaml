@@ -12,8 +12,11 @@
 "2":
   friendly_name: "CT Bedroom"
   devices:
+    - "CT Bedroom Button"
+    - "CT Bedroom Fan"
     - "CT Bedroom Lamp"
     - "CT Bedroom Motion Sensor"
+    - "CT Bedroom White Noise Machine"
 "3":
   friendly_name: "CT Office"
   devices:
