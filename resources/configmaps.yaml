@@ -30,7 +30,7 @@ data:
       "0x001788010b5dd5af":
         friendly_name: "CT Bath Center"
       "0xb40ecfd16a700000":
-        friendly_name: "CT Bath Dehumidifier"
+        friendly_name: "CT Bath White Noise Machine"
       "0x3410f4fffee1e0be":
         friendly_name: "CT Bath Fan"
       "0x001788010b5cf266":
@@ -147,6 +147,7 @@ data:
           - "CT Bath Outside Sensor"
           - "CT Bath Presence Sensor"
           - "CT Bath Right"
+          - "CT Bath White Noise Machine"
       "2":
         friendly_name: "CT Bedroom"
         devices:
