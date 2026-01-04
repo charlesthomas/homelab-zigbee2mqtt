@@ -91,6 +91,8 @@ data:
         friendly_name: "Guest Bath Right"
       "0x842712fffe3fcc6a":
         friendly_name: "Guest Bath Light Switch"
+      "0xb48931fffe2214ef":
+        friendly_name: "Kitchen Button"
       "0xffffb40e0603b550":
         friendly_name: "Kitchen Dishwasher"
       "0xa4c13823843ec8c8":
@@ -149,7 +151,6 @@ data:
           - "CT Bath Outside Sensor"
           - "CT Bath Presence Sensor"
           - "CT Bath Right"
-          - "CT Bath White Noise Machine"
       "2":
         friendly_name: "CT Bedroom"
         devices:
@@ -190,6 +191,7 @@ data:
         friendly_name: "Kitchen"
         devices:
           - "Coffee Pot"
+          - "Kitchen Button"
           - "Kitchen Dishwasher"
           - "Kitchen Humidity Sensor"
           - "Kitchen Lights"

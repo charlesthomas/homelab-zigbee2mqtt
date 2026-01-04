@@ -9,7 +9,6 @@
     - "CT Bath Outside Sensor"
     - "CT Bath Presence Sensor"
     - "CT Bath Right"
-    - "CT Bath White Noise Machine"
 "2":
   friendly_name: "CT Bedroom"
   devices:
@@ -50,6 +49,7 @@
   friendly_name: "Kitchen"
   devices:
     - "Coffee Pot"
+    - "Kitchen Button"
     - "Kitchen Dishwasher"
     - "Kitchen Humidity Sensor"
     - "Kitchen Lights"
