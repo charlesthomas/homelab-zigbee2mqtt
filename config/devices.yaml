@@ -10,8 +10,6 @@
   friendly_name: "CT Bath Button"
 "0x001788010b5dd5af":
   friendly_name: "CT Bath Center"
-"0xb40ecfd16a700000":
-  friendly_name: "CT Bath White Noise Machine"
 "0x3410f4fffee1e0be":
   friendly_name: "CT Bath Fan"
 "0x001788010b5cf266":
@@ -98,6 +96,8 @@
   friendly_name: "Living Room Right Rear"
 "0xa81710b77aba0000":
   friendly_name: "Rear Speakers"
+"0xb40ecfd16a700000":
+  friendly_name: "Vacuum"
 "0x0017880102847eee":
   friendly_name: "RT Bedroom Bottom"
 "0x00158d000abd3612":

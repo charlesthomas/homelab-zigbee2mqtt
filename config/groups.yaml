@@ -2,7 +2,6 @@
   friendly_name: "CT Bath"
   devices:
     - "CT Bath Center"
-    - "CT Bath Dehumidifier"
     - "CT Bath Fan"
     - "CT Bath Left"
     - "CT Bath Light Switch"
@@ -67,6 +66,7 @@
     - "Living Room Right Front"
     - "Living Room Right Rear"
     - "Rear Speakers"
+    - "Vacuum"
 "8":
   friendly_name: "RT Bedroom"
   devices:
