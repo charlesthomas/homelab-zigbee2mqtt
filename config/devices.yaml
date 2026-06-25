@@ -96,6 +96,12 @@
   friendly_name: "Living Room Right Rear"
 "0xa81710b77aba0000":
   friendly_name: "Rear Speakers"
+"0x001788010687e81f":
+  friendly_name: "TV Left"
+"0x001788010687e750":
+  friendly_name: "TV Right"
+"0x00178801090fa67e":
+  friendly_name: "TV Strip"
 "0xb40ecfd16a700000":
   friendly_name: "Vacuum"
 "0x0017880102847eee":

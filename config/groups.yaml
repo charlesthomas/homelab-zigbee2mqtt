@@ -66,6 +66,9 @@
     - "Living Room Right Front"
     - "Living Room Right Rear"
     - "Rear Speakers"
+    - "TV Left"
+    - "TV Right"
+    - "TV Strip"
     - "Vacuum"
 "8":
   friendly_name: "RT Bedroom"
