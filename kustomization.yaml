@@ -5,8 +5,10 @@ namespace: zigbee2mqtt
 
 commonAnnotations:
   repo: https://github.com/charlesthomas/homelab-zigbee2mqtt
-commonLabels:
-  app: zigbee2mqtt
+labels:
+- includeSelectors: true
+  pairs:
+    app: zigbee2mqtt
 
 resources:
 - resources/configmaps.yaml
@@ -43,3 +45,11 @@ patches:
         gethomepage.dev/pod-selector: ""
   target:
     kind: Ingress
+configMapGenerator:
+- name: grafana-dashboard-zigbee2mqtt
+  files:
+  - grafana/zigbee2mqtt.json
+  options:
+    disableNameSuffixHash: true
+    labels:
+      grafana_dashboard: "1"
